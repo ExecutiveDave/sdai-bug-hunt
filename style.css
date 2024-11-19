@@ -36,3 +36,15 @@ button {
 button:hover {
   background-color: #21a1f1;
 }
+
+/* Added funFact styling for smooth fade-in/out */
+#funFact {
+  display: none; /* Initially hidden */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#funFact.show {
+  display: block;
+  opacity: 1;
+}
